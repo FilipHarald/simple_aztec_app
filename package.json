@@ -1,0 +1,15 @@
+{
+  "name": "filip-aztec-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node src/index.mjs",
+    "deploy": "node src/deploy.mjs"
+  },
+  "dependencies": {
+    "@aztec/accounts": "0.53.0",
+    "@aztec/aztec.js": "0.53.0"
+  }
+}
