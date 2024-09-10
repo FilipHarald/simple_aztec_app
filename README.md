@@ -1,9 +1,5 @@
 ```sh
-yarn start
-```
-
-```sh
-yarn run deploy
+yarn run deploy && yarn start
 ```
 
 ```sh
