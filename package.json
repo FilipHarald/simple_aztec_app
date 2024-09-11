@@ -6,6 +6,7 @@
   "private": true,
   "scripts": {
     "start": "node src/index.mjs",
+    "full-refresh": "cd ./contracts/token && aztec-nargo compile && cd ../.. && yarn run deploy && yarn start",
     "deploy": "node src/deploy.mjs"
   },
   "dependencies": {
